@@ -3,8 +3,8 @@ Using what we’ve learned today about CSS, each of you should implement a fun d
 
 Everyone’s styling should:
 -[ ] Change the font color and size of at least one text element (heading or paragraph element)
--[ ] Change at least one text element’s font to an embedded Google font
+-[x] Change at least one text element’s font to an embedded Google font
 -[ ] Modify the border, padding, and margin of at least one element
--[ ] Resize an image
+-[x] Resize an image
 -[ ] Change the background color of an element
 -[ ] Add a background image to a section of the page (div)
