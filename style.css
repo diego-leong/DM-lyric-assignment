@@ -1,5 +1,13 @@
+/* css be graded for accessibility
+- sans serif is what is determined to be easier to read on screens
+- https://htmlcheatsheet.com/css/
+*/
+body {
+    font-family: "Poppins";
+}
+
 #splash{
-    width: 500px;
+    width: 50vw;
 }
 
 .verse {
@@ -9,3 +17,4 @@
 p {
     font-style:bold;
 }
+
