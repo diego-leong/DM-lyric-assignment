@@ -1,0 +1,11 @@
+#splash{
+    width: 500px;
+}
+
+.verse {
+    font-style:italic;
+}
+
+p {
+    font-style:bold;
+}
