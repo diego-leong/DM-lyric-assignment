@@ -6,8 +6,7 @@
 
 
 #albumart {
-  width: 20em;
-  float: 
+  width: 20rem;
 }
 
 .splash-container {
@@ -74,6 +73,7 @@ h3 {
 
 p {
   line-height: 200%;
+  font-size: 1rem;
 }
 
 hr {
