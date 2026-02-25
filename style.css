@@ -4,17 +4,71 @@
 
 */
 body {
-  font-family: "Poppins";
+  background-color: black;
+  font-family: 'Courier Prime';
+  font-size: 1em;
+  color: white;
+}
+
+a {
+  color: #FF255F;
+}
+
+.header-text {
+  color: white;
+  font-family: 'Courier Prime';
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lyrics-content {
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border: 0;
 }
 
 #splash {
-  width: 50vw;
+  width: 100vw;
+  display: block;
 }
 
 .verse {
-  font-style: italic;
+  font-style: bold;
+}
+
+h3 {
+  font-weight: 300;
 }
 
 p {
-  font-style: bold;
+  line-height: 200%;
+}
+
+hr {
+  height: 0.01em;
+  background-color: white;
+  border-color: white;
+}
+
+
+/* Youtube Content */
+.youtube-player {
+  /* position to line up with lyrics at least */
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border: 0;
+  /* had trouble centering with css, just using html <center> tags instead. */
+}
+
+/* Footer */
+footer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
