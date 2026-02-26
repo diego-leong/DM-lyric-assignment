@@ -4,7 +4,6 @@
 
 */
 
-
 #albumart {
   width: 20rem;
 }
@@ -14,29 +13,28 @@
   height: 50vh;
   background-image: url(resources/boa_splash_pure_white.png);
   background-position: 54% 30%;
-
 }
 
 .splash-container p {
   margin-top: 0;
   padding-top: 0;
-  border-top:0;
+  border-top: 0;
 }
 
 body {
   background-color: black;
-  font-family: 'Courier Prime';
+  font-family: "Courier Prime";
   font-size: 1em;
   color: white;
 }
 
 a {
-  color: #FF255F;
+  color: #ff255f;
 }
 
 .header-text {
   color: white;
-  font-family: 'Courier Prime';
+  font-family: "Courier Prime";
   width: 72%;
   margin-left: auto;
   margin-right: auto;
@@ -51,11 +49,13 @@ a {
   border: 0;
 }
 
-#lyrics-content p:hover{
-  transition: all 0.75s ease-in-out; 
+#lyrics-content p:hover {
+  transition: all 0.75s ease-in-out;
   /* background- */
-  color:#FF255F;
+  color: #ff255f;
   /* color:black; */
+  /* outline: 0.3rem solid rgb(0, 0, 0);
+  filter: drop-shadow(0 0 0.1rem white); */
 }
 
 #splash {
@@ -82,7 +82,6 @@ hr {
   border-color: white;
 }
 
-
 /* Youtube Content */
 .youtube-player {
   /* position to line up with lyrics at least */
@@ -90,7 +89,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  border-color: #FF255F;
+  border-color: #ff255f;
   /* had trouble centering with css, just using html <center> tags instead. */
 }
 
